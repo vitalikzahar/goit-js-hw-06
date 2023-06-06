@@ -19,7 +19,6 @@ ingredients.forEach(ingredient => {
   liElement.textContent = ingredient;
   liArray.push(liElement);
 })
-console.log(liArray)
 
 ulElement.prepend(...liArray)
  
